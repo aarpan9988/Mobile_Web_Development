@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid text-center bg-success py-2">
+            <h1>Gursagar Singh</h1>
+        </div>
+        <!-- nabvar stat here -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-md ">
+                <a class="navbar-brand text-success" href="#main">GS-Cinema</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active text-success" aria-current="page" href="#link">Links</a>
+                        </li>
+                         
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false"> DropdownMenu </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-success" href="#scrollspyH1">Tarzan</a></li>
+                                <li><a class="dropdown-item text-success" href="#scrollspyH2">Fast and Furious</a></li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-success" href="#navbar-example2">About</a></li>
+                                <li><a class="dropdown-item text-success" href="#Contact">Contact</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar ended -->
+   
+    <section>
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">NavMenu</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyH1">Tarzan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyH2">Fast and Furious</a>
+                </li>
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -30%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <h2 id="scrollspyH1">Tarzan</h2>
+            <p> Tarzan is the son of a British lord and lady who were marooned on the coast of Africa by mutineers. When Tarzan was an infant, 
+                his mother died, and his father was killed by Kerchak, leader of the ape tribe by whom Tarzan was adopted.
+                Soon after his parents' death, Tarzan became a feral child, and his tribe of apes is known as the Mangani,
+                 great apes of a species unknown to science. Kala is his ape mother. Burroughs added stories occurring during 
+                 Tarzan's adolescence in his sixth Tarzan book, Jungle Tales of Tarzan</p>
+            <h3 id="scrollspyH2">Fast and Furious</h3>
+            <p>Universal expanded the series to include the spin-off film Hobbs & Shaw (2019), while its subsidiary DreamWorks 
+                Animation followed this with the six-season animated streaming television series Fast & Furious Spy Racers (2019-2021)
+                 Soundtrack albums have been released for all the films</p>
+           
+        </div>
+    </section>
+     <!-- main section start-->
+     <section class="container-md  " id=main>
+        <h2 class="text-center">Movies List</h2>
+        <div class="row mt-5 row-col-2">
+            <div class="col">
+                <div class="card" style="width: 19rem;">
+                    <img src="./Imgs/pic1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">Tarzan</h4>
+                        <p class="card-text text-danger">Tarzan's jungle upbringing gives him abilities far beyond those of ordinary humans.
+                             These include climbing, clinging, and leaping as well as any great ape. He uses branches, swings from
+                              vines to travel at great speed, and can use his feet like hands (he prefers going barefoot because he
+                               relies on the flexibility of bare feet), a skill acquired among the anthropoid apes.</p>
+                        <a href="https://www.bing.com/search?pglt=43&q=tarzan+movie&cvid=a16396861dff43a7a6ef65d89172345d&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxBFGDwyBggIEEUYPNIBCDIxMjdqMGoxqAIAsAIA&FORM=ANNTA1&PC=U531" 
+                        class="btn btn-primary" id="link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 17rem;">
+                    <img src="./Imgs/pic2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">Fast and Furious</h4>
+                        <p class="card-text text-danger">recent of which, Fast X, was released on May 19, 2023.
+                            Universal expanded the series to include the spin-off film Hobbs & Shaw (2019), while its subsidiary DreamWorks Animation followed this with the
+                             six-seawith a combined gross of over $7 billion.[2] Critical reception for the first four films was mixed until the fifth and later films, 
+                             which were more positively received.  
+                        </p>
+                        <a href="https://www.bing.com/search?q=fast+and+furious&qs=HS&pq=fast&sk=HS1&sc=10-4&cvid=8539AED80C2D412A97406652DAE65375&FORM=QBRE&sp=2&lq=0" class="btn btn-primary" id="link">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="card" style="width: 19rem;">
+                    <img src="./Imgs/pic3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title text-success">Hobbs and Shaw</h4>
+                        <p class="card-text text-danger">Series star and producer Vin Diesel first said in 2015 that possible spin-offs were 
+                            in early development, and Hobbs & Shaw was officially announced in October 2017. Leitch signed on to 
+                            direct in April 2018, and Kirby and Elba both joined the cast that July. </p>
+                        <a href="https://www.bing.com/search?q=hobbs+and+shaw&qs=SS&pq=+h&sk=SS1&sc=10-2&cvid=962EACE151B84AA69D0C6168B4783566&FORM=QBRE&sp=2&lq=0" class="btn btn-primary" id="link">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid md-4 text-danger bg-body-tertiary p-3 " id="Contact">
+            <h4 class="text-success"> Contacts</h4>
+            <ul> 
+                <li>
+                    Email : w0824662@myscc.ca 
+                </li>
+                <li>
+                     IG : GursagarSandhu_2001 
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+    <!-- main  section ends -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
